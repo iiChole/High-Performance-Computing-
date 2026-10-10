@@ -1,0 +1,57 @@
+# Local tools and editor settings
+.agents/
+.aws/
+.codex/
+.claude/
+.vscode/
+
+# Build products
+**/_build/
+*.o
+*.x
+*.out
+a.out
+__pycache__/
+*.pyc
+
+# Reports, screenshots, drafts and measurement output
+**/_data/
+perf.data*
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.m
+*.txt
+*.tex
+Lab*/report*.md
+
+# Executables generated beside their sources
+Lab1/lab1/time_dgemm
+Lab2/lab2-code/float
+Lab2/lab2-code/float_sum
+Lab3/fork_gemm
+Lab3/ostep/cpu
+Lab3/ostep/while
+Lab3/ostep/fork_var
+Lab3/ostep/p1
+Lab3/ostep/p3
+Lab4/thread/t0
+Lab4/thread/t0_without_thread_join
+Lab4/thread/t1
+Lab4/thread/thread_create_with_return_args
+Lab5/openmp/double-loop
+Lab5/openmp/double-loop-attr
+Lab5/openmp/double-loop-j
+Lab5/openmp/hello
+Lab5/openmp/hello-sleep
+Lab5/openmp/omp-runtime
+Lab5/openmp/sum-omp
+Lab6/mpi/comm_demo
+Lab6/mpi/cpi
+Lab6/mpi/dgemm_mpi
+Lab6/mpi/hellow
+Lab6/mpi/nompi-hello
+
+.venv/
